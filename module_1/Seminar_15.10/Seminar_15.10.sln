@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seminar_15.10", "Seminar_15.10\Seminar_15.10.csproj", "{E85B2D2D-3AF9-460C-AFE9-B64797DE10F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tusk1", "Tusk1\Tusk1.csproj", "{4D6D2CAF-E454-4CEC-A372-C321F80E3CD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeminarRegex", "SeminarRegex\SeminarRegex.csproj", "{281734D4-2423-4EE4-A6A2-242FCBFBC67E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E85B2D2D-3AF9-460C-AFE9-B64797DE10F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E85B2D2D-3AF9-460C-AFE9-B64797DE10F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E85B2D2D-3AF9-460C-AFE9-B64797DE10F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E85B2D2D-3AF9-460C-AFE9-B64797DE10F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D6D2CAF-E454-4CEC-A372-C321F80E3CD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D6D2CAF-E454-4CEC-A372-C321F80E3CD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D6D2CAF-E454-4CEC-A372-C321F80E3CD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D6D2CAF-E454-4CEC-A372-C321F80E3CD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{281734D4-2423-4EE4-A6A2-242FCBFBC67E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{281734D4-2423-4EE4-A6A2-242FCBFBC67E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{281734D4-2423-4EE4-A6A2-242FCBFBC67E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{281734D4-2423-4EE4-A6A2-242FCBFBC67E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
