@@ -17,17 +17,20 @@ namespace Task3
 
         public double Angle => (double)(NumberOfSides - 2) / NumberOfSides * 180;
         
-        public double Sides => 2 * Radius * Math.Sin((double) 180 / NumberOfSides);
+        public double Sides => 2 * Radius * Math.Sin(Math.PI / NumberOfSides);
 
-        public double RadiusInscribed => Radius * Math.Cos((double) 180 / NumberOfSides);
+        public double RadiusInscribed => Radius * Math.Cos(Math.PI / NumberOfSides);
 
         public double Area => 0.5 * Perimiter * RadiusInscribed;
         
         public double Perimiter => NumberOfSides * Sides;
 
         public string PolygonData() =>
-            $"Polygon Data:\nSides = {Sides}\nAngle = {Angle}\nRadius of inscribed circle = {RadiusInscribed}\n"
-            + $"Area = {Area}\nPerimeter = {Perimiter}";
+            $"Polygon Data:\nSides = {Math.Round(Sides,3)}\n" +
+            $"Angle = {Math.Round(Angle,3)}\n" +
+            $"Radius of inscribed circle = {Math.Round(RadiusInscribed,3)}\n" +
+            $"Area = {Math.Round(Area,3)}\n" +
+            $"Perimeter = {Math.Round(Perimiter,3)}";
     }
     
     class Program
@@ -72,7 +75,9 @@ namespace Task3
                 }
                 
                 list.Add(new RegularPolygon(num, radius));
+                Console.WriteLine(list[count - 1].PolygonData());
                 count++;
+                
             } while (!(num == 0 && radius == 0));
 
             Console.WriteLine("\t*Polygons' info*");
